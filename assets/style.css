@@ -1,0 +1,32 @@
+#outer-circle {
+  background: #1b262c;
+  border-radius: 50%;
+  height: 500px;
+  width: 500px;
+  position: relative;
+  border-style: solid;
+  border-width: 10px;
+  margin: auto;
+  margin-top: 60px;
+  box-shadow: 10px 10px 15px 5px #888888;
+}
+
+#title {
+  font-family: 'Montserrat';
+  position: absolute;
+  font-size: 36px;
+}
+
+#topleft {
+  position: absolute;
+  height: 250px;
+  width: 250px;
+  border-radius: 250px 0 0 0;
+  background: darkgreen;
+  top: 50%;
+  left: 50%;
+  margin: -250px 0px 0px -250px;
+  border-style: solid;
+  border-width: 5px;
+  box-sizing: border-box;
+}
