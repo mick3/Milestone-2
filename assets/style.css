@@ -114,4 +114,11 @@
 
 .label {
   font-size: 10px;
+  margin-left: 10px;
+  margin-bottom: 2rem;
+  padding-top: 120px;
+  
+}
+
+.container {
 }
