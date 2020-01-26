@@ -9,3 +9,5 @@ https://css-tricks.com/the-shapes-of-css/ and
 https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_shapes_circle
 
 Referenced https://ajgreaves.github.io/bootstrap-grid-demo/containers-rows.html for boostrap gridding.
+
+Referenced https://www.w3schools.com/css/css3_buttons.asp to figure out how to style buttons.
