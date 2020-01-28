@@ -78,7 +78,7 @@
   height: 250px;
   width: 250px;
   border-radius: 0 0 0 250px;
-  background: #66cccc;
+  background: #BADA55;
   top: 50%;
   left: 50%;
   margin: 0px -250px 0px -250px;
@@ -115,10 +115,58 @@
 .label {
   font-size: 10px;
   margin-left: 10px;
-  margin-bottom: 2rem;
-  padding-top: 120px;
-  
 }
 
-.container {
+#name {
+  font-size: 10px;
+  margin-left: 10px;
+}
+
+#round-screen {
+  position: relative;
+  margin-left: 75px;
+  margin-top: 3%;
+  font-family: 'VT323', mono;
+  font-size: 36px;
+  line-height: 44px;
+  text-align: center;
+  background: rgb(4, 0, 61);
+  border: 2px inset rgba(0, 0, 0, 0.2);
+  border-radius: .1em;
+  box-shadow: 0 0 1.5em 0.1em rgba(0, 0, 0, 0.22) inset;
+  width: 1.2em;
+  height: 1em;
+}
+
+.btn-small {
+  margin: 14px;
+  width: 18px;
+  height: 18px;
+  border-radius: 100%;
+  border: 2px solid #343838;
+  box-shadow: 0 1px rgba(0, 0, 0, 0.5);
+  background: black;
+}
+
+#btn-reset {
+  background-color: #eec026;
+}
+
+#btn-start {
+  background-color: #01fd38;
+}
+
+#btn-strict {
+  background-color: #d62626;
+}
+
+.strict-led {
+  vertical-align: top;
+  margin-top: 5px;
+  padding: 4px;
+  width: 4px;
+  height: 4px;
+  background-color: #460000;
+  border-radius: 100%;
+  border: 1px solid #343838;
 }
