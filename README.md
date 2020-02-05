@@ -11,3 +11,6 @@ https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_shapes_circle
 Referenced https://ajgreaves.github.io/bootstrap-grid-demo/containers-rows.html for boostrap gridding.
 
 Referenced https://www.w3schools.com/css/css3_buttons.asp to figure out how to style buttons.
+
+
+Bug 2/05/2020: When I click on the "start" button, the "round-screen" displays "NaN". 
