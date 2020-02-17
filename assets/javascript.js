@@ -63,11 +63,4 @@ function playSequence() {
             playSound(button);
         }, game.timestep*(counter+1));
     });
-//Event Listeners
-$('#btn-start').click(function() {
-    if (game.allowPress === true && game.active === false) {
-        game.active = true;
-        addNumber();
-        playSequence();
-    }
-});
+
