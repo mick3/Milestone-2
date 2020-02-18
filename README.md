@@ -16,3 +16,4 @@ Referenced https://cssanimation.rocks/clocks/ for how to create CSS and HTML cir
 
 Bug 2/05/2020: When I click on the "start" button, the "round-screen" displays "NaN".
 # Milestone_2
+# 2nd_Milestone
