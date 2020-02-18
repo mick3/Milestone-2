@@ -19,3 +19,5 @@ of my victory, then the game starts over.
 $(document).ready(function() {
     resetGame();
   });
+
+  
