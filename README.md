@@ -14,6 +14,3 @@ Referenced https://www.w3schools.com/css/css3_buttons.asp to figure out how to s
 
 Referenced https://cssanimation.rocks/clocks/ for how to create CSS and HTML circular shapes.
 
-Bug 2/05/2020: When I click on the "start" button, the "round-screen" displays "NaN".
-# Milestone_2
-# 2nd_Milestone
