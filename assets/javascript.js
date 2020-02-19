@@ -41,7 +41,7 @@ const startButton = document.querySelector("#btn-start");
 const strictButton = document.querySelector("#btn-strict");
 const resetButton = document.querySelector("#btn-reset");
 
-startButton.addEventListener('click', (event) =>) {
+startButton.addEventListener('click', (event) => {
     if (startButton.checked == true) {
         start = true;
         turnCounter.innerHTML = "-";
@@ -49,4 +49,21 @@ startButton.addEventListener('click', (event) =>) {
         start = false;
         turnCounter.innerHTML = "";
     }
+});
+
+function play() {
+    win = false;
+    order = [];
+    playerOrder = [];
+    flash = 0;
+    intervalId = 0;
+    turn = 1;
+    turnCounter.innerHTML = 1;
+    good = true;
+    for (var i = 0; i < 20; i++) {
+        order.push(Math.floor(Math.random() * 4) + 1);
+    }
+    computerTurn = true;
+
+    intervalId = setInterval(gameTurn, 800);
 }
