@@ -40,3 +40,13 @@ const bottomLeft = document.querySelector("#btn3");
 const startButton = document.querySelector("#btn-start");
 const strictButton = document.querySelector("#btn-strict");
 const resetButton = document.querySelector("#btn-reset");
+
+startButton.addEventListener('click', (event) =>) {
+    if (startButton.checked == true) {
+        start = true;
+        turnCounter.innerHTML = "-";
+    } else {
+        start = false;
+        turnCounter.innerHTML = "";
+    }
+}
