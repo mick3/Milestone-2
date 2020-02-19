@@ -37,3 +37,6 @@ const topLeft = document.querySelector("#btn0");
 const topRight = document.querySelector("#btn1");
 const bottomRight = document.querySelector("#btn2");
 const bottomLeft = document.querySelector("#btn3");
+const startButton = document.querySelector("#btn-start");
+const strictButton = document.querySelector("#btn-strict");
+const resetButton = document.querySelector("#btn-reset");
