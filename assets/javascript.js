@@ -20,4 +20,16 @@ $(document).ready(function() {
     resetGame();
   });
 
-  
+let orderOfLights = [];
+let playerOrder = [];
+let flash;
+let turn;
+let good;
+let computerTurn;
+let intervalId;
+let strictActivated= false;
+let noise = true;
+let start = false;
+let win;
+
+const turnCounter = document.querySelector("#round-screen");
