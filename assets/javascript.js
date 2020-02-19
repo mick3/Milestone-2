@@ -33,3 +33,7 @@ let start = false;
 let win;
 
 const turnCounter = document.querySelector("#round-screen");
+const topLeft = document.querySelector("#btn0");
+const topRight = document.querySelector("#btn1");
+const bottomRight = document.querySelector("#btn2");
+const bottomLeft = document.querySelector("#btn3");
