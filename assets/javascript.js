@@ -50,10 +50,10 @@ startButton.addEventListener('click', (event) => {
 startButton.addEventListener('click', (event ) => {
     if (startButton.checked == true) {
         start = true;
-        turnCounter.innerHTML = "--";
+        round-screen.innerHTML = "--";
     } else {
         start = false;
-        turnCounter.innerHTML = "";
+        round-screen.innerHTML = "";
         clearColor();
         clearInterval(intervalId);
     }
