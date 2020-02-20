@@ -111,4 +111,33 @@ function one() {
         let audio = document.getElementById("clip1");
         audio.play();
     }
+    noise = true;
+    topLeft.style.backgroundColor = "lightgreen";
+}
+
+function one() {
+    if (noise) {
+        let audio = document.getElementById("clip1");
+        audio.play();
+    }
+    noise = true;
+    topLeft.style.backgroundColor = "lightgreen";
+}
+
+function one() {
+    if (noise) {
+        let audio = document.getElementById("clip1");
+        audio.play();
+    }
+    noise = true;
+    topLeft.style.backgroundColor = "lightgreen";
+}
+
+function one() {
+    if (noise) {
+        let audio = document.getElementById("clip1");
+        audio.play();
+    }
+    noise = true;
+    topLeft.style.backgroundColor = "lightgreen";
 }
