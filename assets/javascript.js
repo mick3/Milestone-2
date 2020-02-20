@@ -86,4 +86,29 @@ function play() {
 
 function gameTurn() {
     on = false;
+
+    if (flash == turn) {
+        clearInterval(intervalId);
+        computerTurn = false;
+        clearColor;
+        on = true;
+    }
+
+    if (computerTurn) {
+        clearColor();
+        setTimeout(() => {
+        if (order[flash] == 1) one();
+        if (order[flash] == 2) two();
+        if (order[flash] == 3) three();
+        if (order[flash] == 4) four();
+        flash++;
+        }, 200);
+    }
+}
+
+function one() {
+    if (noise) {
+        let audio = document.getElementById("clip1");
+        audio.play();
+    }
 }
