@@ -47,6 +47,18 @@ startButton.addEventListener('click', (event) => {
     }
 });
 
+startButton.addEventListener('click', (event ) => {
+    if (startButton.checked == true) {
+        start = true;
+        turnCounter.innerHTML = "--";
+    } else {
+        start = false;
+        turnCounter.innerHTML = "";
+        clearColor();
+        clearInterval(intervalId);
+    }
+})
+
 strictButton.addEventListener('click', (event) => {
     if (strictButton.checked == true) {
         strict = true;
