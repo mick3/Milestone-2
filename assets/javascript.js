@@ -42,12 +42,8 @@ const strictButton = document.querySelector("#btn-strict");
 const resetButton = document.querySelector("#btn-reset");
 
 startButton.addEventListener('click', (event) => {
-    if (startButton.checked == true) {
-        start = true;
-        turnCounter.innerHTML = "-";
-    } else {
-        start = false;
-        turnCounter.innerHTML = "";
+    if (on || win) {
+        play();
     }
 });
 
