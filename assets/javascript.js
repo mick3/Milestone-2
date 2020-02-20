@@ -94,6 +94,13 @@ function gameTurn() {
         on = true;
     }
 
+    function clearColor() {
+        topLeft.style.backgroundColor = "darkcolor";
+        topRight.style.backgroundColor = "darkred";
+        bottomRight.style.backgroundColor = "goldenrodr";
+        bottomLeft.style.backgroundColor = "darkblue";
+    }
+
     if (computerTurn) {
         clearColor();
         setTimeout(() => {
@@ -115,29 +122,29 @@ function one() {
     topLeft.style.backgroundColor = "lightgreen";
 }
 
-function one() {
+function two() {
     if (noise) {
-        let audio = document.getElementById("clip1");
+        let audio = document.getElementById("clip2");
         audio.play();
     }
     noise = true;
-    topLeft.style.backgroundColor = "lightgreen";
+    topRight.style.backgroundColor = "tomato";
 }
 
-function one() {
+function three() {
     if (noise) {
-        let audio = document.getElementById("clip1");
+        let audio = document.getElementById("clip3");
         audio.play();
     }
     noise = true;
-    topLeft.style.backgroundColor = "lightgreen";
+    bottomRight.style.backgroundColor = "yellow";
 }
 
-function one() {
+function four() {
     if (noise) {
-        let audio = document.getElementById("clip1");
+        let audio = document.getElementById("clip4");
         audio.play();
     }
     noise = true;
-    topLeft.style.backgroundColor = "lightgreen";
+    bottomLeft.style.backgroundColor = "lightblue";
 }
