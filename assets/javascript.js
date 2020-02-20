@@ -51,6 +51,14 @@ startButton.addEventListener('click', (event) => {
     }
 });
 
+strictButton.addEventListener('click', (event) => {
+    if (strictButton.checked == true) {
+        strict = true;
+    } else {
+        strict = false;
+    }
+});
+
 function play() {
     win = false;
     order = [];
@@ -67,5 +75,3 @@ function play() {
 
     intervalId = setInterval(gameTurn, 800);
 }
-
-test 
