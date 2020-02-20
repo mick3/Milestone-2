@@ -83,3 +83,7 @@ function play() {
 
     intervalId = setInterval(gameTurn, 800);
 }
+
+function gameTurn() {
+    on = false;
+}
