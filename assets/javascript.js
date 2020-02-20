@@ -67,3 +67,5 @@ function play() {
 
     intervalId = setInterval(gameTurn, 800);
 }
+
+test 
