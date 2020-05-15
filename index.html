@@ -1,67 +1,30 @@
-<!DOCTYPE html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Simon Game</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-        <link rel="stylesheet" href="assets/style.css">
-        <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
-      
-        <audio id="clip1">
-          <source src="https://s3.amazonaws.com/freecodecamp/simonSound1.mp3"></source>
-        </audio>
-        <audio id="clip2">
-          <source src="https://s3.amazonaws.com/freecodecamp/simonSound2.mp3"></source>
-        </audio>
-        <audio id="clip3">
-          <source src="https://s3.amazonaws.com/freecodecamp/simonSound3.mp3"></source>
-        </audio>
-        <audio id="clip4">
-          <source src="https://s3.amazonaws.com/freecodecamp/simonSound4.mp3"></source>
-        </audio>
-      
-      </head>
-    <body>
-      <div class="outer-circle">
-        <div class="topLeft" id="btn0"></div>
-        <div class="topRight" id="btn1"></div>
-        <div class="bottomRight" id="btn2"></div>
-        <div class="bottomLeft" id="btn3"></div>
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-        <div class="inner-circle">
-          <h1 id="title">SIMON</h1>
-          <div class="container btns">
-          <div class="row">
-            <div class="col">
-              <label class="label" for="btn-start">START</label>
-            <button class="btn-small" id="btn-start"></button>
-            <label id="strict-label" class="label" for="btn-strict">STRICT</label>
-            <button class="btn-small" id="btn-strict"></button>
-            <button class="strict-led" disabled></button>
-            <label class="label" for="btn-reset">RESET</label>
-            <button class="btn-small" id="btn-reset"></button>
-            </div>
-            </div>
-          </div>
-          <div class="container">
-          <div class="row">
-            <div class="col round-screen">
-          <input id="round-screen" placeholder="--" maxlength="2" size="2" disabled>
-        </div>
-    </div>
-    </div>
-  </div>
-  </div>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/e98b0bebae.js" crossorigin="anonymous"></script>
+  <body>  
+    <div class="jumbotron">
+        <h1 class="display-4">Hello, world!</h1>
+        <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+        <hr class="my-4">
+        <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+        <p class="lead">
+          <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+        </p>
+      </div>
 
-      
-      <!-- Bootstrap Links -->
-      <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-      <!-- JS Link -->
-      <script type="text/javascript" src="assets/javascript.js"></script>
-    </body>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
 </html>
