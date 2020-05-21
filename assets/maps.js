@@ -1,67 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+       /* Set the size of the div element that contains the map */
+      #map {
+        height: 400px;  /* The height is 400 pixels */
+        width: 100%;  /* The width is the width of the web page */
+       }
+    </style>
+  </head>
+  <body>
+    <h3>My Google Maps Demo</h3>
+    <!--The div element for the map -->
+    <div id="map"></div>
+    <script>
+// Initialize and add the map
 function initMap() {
-    var map = new google.maps.Map(document.getElementById("map"), {
-        zoom: 3,
-        center: {
-            lat: 46.619261,
-            lng: -33.134766
-        }
-    });
-
-    var labels = "ABCDEFGHIJKLMONPQRSTUVWXYZ";
-
-    var locations = [{
-        lat: 40.785091,
-        lng: -73.968285
-    }, {
-        lat: 41.084045,
-        lng: -73.874256
-    }, {
-        lat: 40.754932,
-        lng: -73.984016
-    }];
-
-    var markers = locations.map(function(location, i) {
-        return new google.maps.Marker({
-            position: location,
-            label: labels[i % labels.length]
-        });
-    });
-
-    var markerCluster = new MarkerClusterer(map, markers, {
-        imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'
-    });
+  // The location of Uluru
+  var uluru = {lat: -25.344, lng: 131.036};
+  // The map, centered at Uluru
+  var map = new google.maps.Map(
+      document.getElementById('map'), {zoom: 4, center: uluru});
+  // The marker, positioned at Uluru
+  var marker = new google.maps.Marker({position: uluru, map: map});
 }
-
-function initMap() {
-    var map = new google.maps.Map(document.getElementById("map"), {
-        zoom: 3,
-        center: {
-            lat: 46.619261,
-            lng: -33.134766
-        }
-    });
-
-    var labels = "ABCDEFGHIJKLMONPQRSTUVWXYZ";
-
-    var locations = [{
-        lat: 40.785091,
-        lng: -73.968285
-    }, {
-        lat: 41.084045,
-        lng: -73.874256
-    }, {
-        lat: 40.754932,
-        lng: -73.984016
-    }];
-
-    var markers = locations.map(function(location, i) {
-        return new google.maps.Marker({
-            position: location,
-            label: labels[i % labels.length]
-        });
-    });
-
-    var markerCluster = new MarkerClusterer(map, markers, {
-        imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'
-    });
-}
+    </script>
+    <!--Load the API from the specified URL
+    * The async attribute allows the browser to render the page while the API loads
+    * The key parameter will contain your own API key (which is not needed for this tutorial)
+    * The callback parameter executes the initMap() function
+    -->
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDzaGp77bCy_9Zwrd82jXt4L1TIuxqeJUE&callback=initMap">
+    </script>
+  </body>
+</html>
