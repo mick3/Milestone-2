@@ -1,5 +1,12 @@
-var tl = gsap.timeline ();
-    tl.from(".globe", {opacity:0})
-    tl.from(".subtitle", {x: 80, opacity:0})
-    tl.from(".body", {x:-80, opacity:0})
-    tl.from(".lead", {y:30, opacity:0})
+var tl = gsap.timeline ({defaults:{opacity:0, ease:"back"}});
+    
+function init () {
+    tl.from(".globe", {ease:"linear"})
+    tl.from(".subtitle", {x:80, duration:1}, "<")
+    tl.from(".body", {x:-80}, "-=0.2")
+    tl.from(".lead", {y:30, opacity:0}, "-=0.4")
+}
+
+window.addEventListener("load", function(event){
+    init();
+});
