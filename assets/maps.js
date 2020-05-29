@@ -8,10 +8,10 @@
 
 function initAutocomplete() {
     var map = new google.maps.Map(document.getElementById('map'), {
-      center: {lat: 2.8,-187.3},
-      zoom: 2,
-      mapTypeId: 'roadmap'
-    });
+        zoom: 2,
+        center: new google.maps.LatLng(2.8,-187.3),
+        mapTypeId: 'terrain'
+      });
   
     // Create the search box and link it to the UI element.
     var input = document.getElementById('pac-input');
