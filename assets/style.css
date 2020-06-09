@@ -5,7 +5,7 @@
 /* Always set the map height explicitly to define the size of the div
  * element that contains the map. */
  #map {
-    height: 100%;
+    height: 80%;
   }
   /* Optional: Makes the sample page fill the window. */
   html, body {
@@ -83,3 +83,29 @@
   #target {
     width: 345px;
   }
+
+.btn {
+    background-color: #fff;
+    border-color: #000;
+    color: green;
+}
+
+.globe {
+    display: flex;
+    justify-content: center;
+}
+
+.subtitle {
+    display: flex;
+    justify-content: center;
+}
+
+.body {
+    display: flex;
+    justify-content: center;
+}
+
+.lead {
+    display: flex;
+    justify-content: center;
+}
