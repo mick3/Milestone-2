@@ -5,8 +5,6 @@
 /* Always set the map height explicitly to define the size of the div
  * element that contains the map. */
  #map {
-    position:absolute;
-    z-index: 1;
     height: 80%;
   }
   /* Optional: Makes the sample page fill the window. */
