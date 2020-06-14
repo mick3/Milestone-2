@@ -110,13 +110,3 @@
     display: flex;
     justify-content: center;
 }
-
-.navbar {
-    position:absolute;
-    z-index: 2;
-}
-
-.modal button {
-    position:absolute;
-    z-index: 2;
-}
