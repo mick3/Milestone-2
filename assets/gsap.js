@@ -5,7 +5,6 @@ function init () {
     tl.from(".subtitle", {x:80, duration:1}, "<")
     tl.from(".body", {x:-80}, "-=0.2")
     tl.from(".lead", {y:30, opacity:0}, "-=0.4")
-    tl.from(".globe1", {x:80, duration:1}, "<")
 }
 
 window.addEventListener("load", function(event){
