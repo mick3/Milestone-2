@@ -110,8 +110,3 @@
     display: flex;
     justify-content: center;
 }
-
-.modal {
-    display: flex;
-    justify-content: flex-end;
-}
